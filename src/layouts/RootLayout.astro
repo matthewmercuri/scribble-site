@@ -1,5 +1,4 @@
 ---
-
 ---
 
 <html lang="en">
@@ -10,7 +9,16 @@
     <meta name="generator" content={Astro.generator} />
     <title>Astro</title>
   </head>
-  <body>
+  <body class="bg-slate-800">
+    <nav class="border-b-2 border-slate-900 h-16">
+      <div class="mx-auto h-full flex items-center w-8/12">
+        <a href="/" class="text-3xl text-gray-300 font-medium">mattmerc</a>
+        <div class="h-full flex items-center ml-auto">
+          <a class="text-gray-300 text-lg font-thin" href="/">home</a>
+          <a class="text-gray-300 text-lg font-thin ml-10" href="/blog">blog</a>
+        </div>
+      </div>
+    </nav>
     <main>
       <slot />
     </main>
