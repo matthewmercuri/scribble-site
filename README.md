@@ -1,5 +1,8 @@
 # Astro Starter Kit: Minimal
 
+
+- https://blog.pragmaticengineer.com/
+- https://piccalil.li/blog/
 ```sh
 npm create astro@latest -- --template minimal
 ```
